@@ -1,8 +1,12 @@
+import { useLocation } from "react-router-dom";
+
 const Index = () => {
+    
+
     return(
-        <>
-            <div>인덱스</div>
-        </>
+        <div>
+            <div>1</div>
+        </div>
     )
 }
 export default Index;

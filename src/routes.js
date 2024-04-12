@@ -1,10 +1,15 @@
+import { useRoutes } from "react-router-dom";
 import Index from "./pages";
 
-const routes = [
-    {
-        path: '/',
-        exact: true,
-        component: Index
-    }
-]
-export default routes;
+const Routes = () => {
+    const routes = [
+        {
+            path: '/',
+            element: Index()
+        }
+    ]
+    const router = useRoutes(routes);
+    return router;
+}
+
+export default Routes;
