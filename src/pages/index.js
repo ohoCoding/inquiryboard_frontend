@@ -1,11 +1,12 @@
 import { useLocation } from "react-router-dom";
+import { MainHeader } from "../components";
 
 const Index = () => {
     
 
     return(
         <div>
-            <div>1</div>
+            <MainHeader/>
         </div>
     )
 }
